@@ -1,0 +1,39 @@
+/* Reset */
+body {
+  margin: unset;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Typography */
+:root {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+
+/* Commons */
+.ir {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
